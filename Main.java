@@ -25,7 +25,7 @@ public class Main {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    int number = sc.nextInt();
+    int number = scanner.nextInt();
     System.out.println(getLargestNumber(number));
   }
 }
